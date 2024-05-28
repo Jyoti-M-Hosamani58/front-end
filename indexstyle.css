@@ -1,0 +1,95 @@
+@media screen and (max-width: 600px) {
+    /* Styles for small screens go here */
+}
+
+@media only screen and (min-width: 600px) {
+    /* Tablet styles */
+    section {
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* Desktop styles */
+    section {
+        padding: 60px;
+    }
+}
+body {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fe7171;
+    padding: 5px;
+}
+
+nav a {
+    color: #0d0c0c;
+    text-decoration: none;
+    padding: 2vh 5vh 0vh 5vh;
+    margin: 0 10px;
+    font-family:courier;
+    font-style: bold;
+    font-size: 20px;
+}
+
+/* nav a:hover {
+    background-color: #736f6f;
+}*/
+.navimage{
+    height: 35px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to left, #ff99cc 0%, #ffff99 100%);
+    
+
+}
+
+.left-side, .right-side {
+    flex: 1;
+    padding: 0px;
+}
+
+
+.frontimage{
+    height: 100%;
+    width: 100%;
+}
+.lorem{
+    padding: 10vh 15vh 5vh 15vh;
+    font-family:Calibri, sans-serif;
+    font-size: 45px;
+}
+.lorempara{
+    text-align: left;
+    padding: 0vh 10vh 5vh 15vh;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+}
+button{
+    background-color:rgb(242, 76, 76);
+    color: white;
+    font-size:15px;
+    padding: 15px 15px;
+    margin: 2vh 2vh 0vh 15vh;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}

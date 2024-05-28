@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px) {
+    /* Styles for small screens go here */
+}
+
+@media only screen and (min-width: 600px) {
+    /* Tablet styles */
+    section {
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* Desktop styles */
+    section {
+        padding: 60px;
+    }
+}
+
+body {
+            
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    box-sizing: border-box;
+    height: 100%;
+    
+
+}
+.nextcon {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffff99 0%, #ff99cc 100%);
+}
+
+.left-side-con, .right-side-con {
+    flex: 1;
+    padding: 0px;
+}
+
+.leftcon{
+    display: flex;
+}
+
+.left-left, .left-right{
+    flex:1;
+}
+.left1, .left2{
+    flex: 1;
+}
+.image1{
+    padding: 10vh 2vh 2vh 15vh;
+    height: 38vh;
+    width: 72%;
+}
+.image2{
+    padding: 0vh 2vh 0vh 15vh;
+    height: 38vh;
+    width: 72%;;
+}
+.image3{
+    padding: 10vh 0vh 1vh 5vh;
+    height: 78vh;
+    width: 74%;
+}
+
+.rightform{
+    padding: auto;
+    background-color:rgb(243, 96, 96) ;
+    margin: 25% 30% 10% 2%;
+}
+.heading{
+    padding: 5vh 0vh 0vh 5vh;
+    font-family: Calibri;
+}
+
+.h3{
+    padding: 0vh 0vh 0vh 5vh;
+    font-size: 7vh;
+    font-family: Calibri, sans-serif;
+}
+
+.icon{
+    height: 20px;
+    width: 30px;
+}
+
+
+
